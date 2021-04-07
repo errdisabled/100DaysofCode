@@ -1,3 +1,7 @@
+
+
 print("Hello, world!\nHello, world!\nHello, world!")
 
-print("Hello " + "Alex")
+name = input("What is your name? ")
+
+print("Hello " + name)
