@@ -7,4 +7,4 @@ calculation = int(weight) / float(height) ** 2
 
 bmi = str(int(calculation))
 
-print("Your BMI is " + bmi)
+print(f"Your BMI is {bmi}")
