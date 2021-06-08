@@ -43,17 +43,17 @@ else:
     print(all_choices[user_choice])
 
 # gather the computer choice and print it
-computer_choice = random.randint(0, 2)
-print(f"Computer chose:\n{all_choices[computer_choice]}")
+    computer_choice = random.randint(0, 2)
+    print(f"Computer chose:\n{all_choices[computer_choice]}")
 
 # set up the scoring
-if user_choice == 0 and computer_choice == 2:
-    print("You win!")
-elif computer_choice == 0 and user_choice == 2:
-    print("You lose")
-elif computer_choice > user_choice:
-    print("You lose")
-elif user_choice > computer_choice:
-    print("You win!")
-elif computer_choice == user_choice:
-    print("It's a draw")
+    if user_choice == 0 and computer_choice == 2:
+        print("You win!")
+    elif computer_choice == 0 and user_choice == 2:
+        print("You lose")
+    elif computer_choice > user_choice:
+        print("You lose")
+    elif user_choice > computer_choice:
+        print("You win!")
+    elif computer_choice == user_choice:
+        print("It's a draw")
